@@ -8,6 +8,16 @@
 
 
 @media only screen and (min-width: 960px) and (max-width: 1279px) { // small desktop
+  #header-wrap{
+    #navigation {
+      //margin-right: 15px;
+      #menu {
+        li > a {
+          font-size: .9em; // better, but not enought
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 1024px) { // tablet

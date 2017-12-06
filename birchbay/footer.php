@@ -4,7 +4,7 @@
  */
 	if (is_active_sidebar('reach-bottom-cta')) {
 		echo '<footer id="reach-bottom-cta">';
-			echo '<div id="reach-bottom-cta-wrap" class="be-wrap be-row clearfix">';
+			echo '<div id="reach-bottom-cta-wrap" class="clearfix">';
 			dynamic_sidebar( 'reach-bottom-cta');
 			echo '</div>';
 		echo '</footer>';

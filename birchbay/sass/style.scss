@@ -17,7 +17,16 @@ Version: 1.2
 
 }
 /*  header stuff - here */
-
+#header {
+	// top bar
+	#header-top-bar {
+		.top-bar-widgets {
+			a {
+				color: $topbar-link; // for the phone number
+			}
+		}
+	}
+}
 /* top cta here */
 #reach-above-content-wrap {
 	width: 100%;
@@ -39,12 +48,19 @@ Version: 1.2
 #reach-bottom-cta{
 	//margin-top: 40px;
 	//margin-bottom: 40px;
-	background-color: $bottom-cta-bkg;
+	background-color: $bottom-cta-bkg; // fall back
+	//background-image: url(./images/birch-background-100.jpg);
 	.widget {
     margin-bottom: 0px;
 	}
+	border-top: 4px solid $bbv-blue;
+	border-bottom: 4px solid $bbv-blue;
 }
-// footer
+// footer (s_)
+#bottom-widgets {
+	
+}
+// very bottom
 #footer {
     a.reach-logo {
     	color: white;
