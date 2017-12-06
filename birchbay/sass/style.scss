@@ -26,6 +26,17 @@ Version: 1.2
 			}
 		}
 	}
+	#header-inner-wrap {
+		#navigation {
+			line-height: normal;
+			//padding-top: 60px;
+			padding-bottom: 10px;
+			#menu > li {
+				//font-size: .9em; // better, but not enought
+				padding-bottom: 10px;
+			}
+		}
+	}
 }
 /* top cta here */
 #reach-above-content-wrap {
@@ -58,7 +69,7 @@ Version: 1.2
 }
 // footer (s_)
 #bottom-widgets {
-	
+
 }
 // very bottom
 #footer {

@@ -6,19 +6,32 @@
 // max-width: 767px
 // (min-width: 480px) and (max-width: 767px)
 
-
-@media only screen and (min-width: 960px) and (max-width: 1279px) { // small desktop
-  #header-wrap{
-    #navigation {
-      //margin-right: 15px;
-      #menu {
-        li > a {
-          font-size: .9em; // better, but not enought
-        }
+@media only screen and (min-width: 1285px)  { //  desktop
+  #header {
+    #header-wrap{
+      #navigation {
+        line-height: normal;
+        padding-top: 70px;
       }
     }
   }
-}
+} // end large desktop
+
+@media only screen and (min-width: 960px) and (max-width: 1284px) { // small desktop
+  #header {
+    #header-wrap{
+      #navigation {
+        	line-height: normal;
+    			padding-top: 10px;
+        #menu {
+          li > a {
+            //font-size: .9em; // better, but not enought
+          }
+        }
+      } // end navigation
+    } // end #header-wrap
+  } // end header
+} // end small desktop
 
 @media only screen and (max-width: 1024px) { // tablet
 }
