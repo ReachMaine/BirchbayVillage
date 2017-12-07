@@ -1,0 +1,38 @@
+// testimonials
+.easy_t_single_testimonial {
+  font-family: Lusitana, "Open Sans", Arial, sans-serif;
+  blockquote.easy_testimonial {
+    .testimonial_body {
+      blockquote:before {
+        color: $bbv-gold-lighter;
+      }
+      blockquote {
+        font-style: normal;
+        p {
+          //line-height: 24px;
+          //font-size: 14px;
+          //margin-bottom: 15px;
+        }
+
+      }
+
+    } // end body
+
+  	.testimonial_body:after {
+  	}
+
+  	p.testimonial_author {
+
+      text-align: right;
+      font-size: .9em;
+      .testimonial-client:before {
+        content: "\2014"; // add a dash before the author's byline
+        padding-right: 5px;
+      }
+      .testimonial-client{
+          font-style: normal;
+      }
+    } // end author
+
+  } // end blockquote
+}

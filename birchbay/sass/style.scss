@@ -10,6 +10,8 @@ Version: 1.2
 @import "partials/colors";
 @import "partials/typography";
 @import "partials/oshine";
+@import "partials/cf7";
+@import "partials/easytestimonials";
 
 
 /*** slidebar in oshine slidebar is above main content *** */
@@ -69,7 +71,8 @@ Version: 1.2
 }
 // footer (s_)
 #bottom-widgets {
-
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 // very bottom
 #footer {
