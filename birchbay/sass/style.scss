@@ -49,6 +49,17 @@ Version: 1.2
 
 /*** styling of content */
 /*** styling of content */
+ .style2-blog {
+		.blog-post {
+			.post-content-wrap {
+				 margin-bottom: 0px;
+			 }
+			 .more-link{
+				 display: inline;
+			 }
+		}
+ }
+
 #content.right-sidebar-page {
 	padding-top: 45px;  // small at mobile in media
 	padding-bottom: 45px;
