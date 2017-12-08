@@ -49,6 +49,7 @@ Version: 1.2
 
 /*** styling of content */
 /*** styling of content */
+// both archive & single
  .style2-blog {
 		.blog-post {
 			.post-content-wrap {
@@ -59,6 +60,20 @@ Version: 1.2
 			 }
 		}
  }
+ // just single
+.single_post {
+	article {
+		.post-content  {
+			.post-thumb {
+				max-width: 40%;
+				max-height: 400px;
+				padding-right: 15px;
+				padding-bottom: 5px;
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
 
 #content.right-sidebar-page {
 	padding-top: 45px;  // small at mobile in media

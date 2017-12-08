@@ -16,7 +16,7 @@ $post_format = get_post_format();
 	<div class="element-inner" style="<?php echo ($blog_attr['style'] == 'style3') ? 'margin-left:'.$blog_attr['gutter_width'].'px' : ''; ?>">
 		<div class="post-content-wrap">
 			<?php
-				if( $post_format != 'quote' && $post_format != 'link' ) {
+				if( $post_format != 'quote' && $post_format != 'link' && !is_single() ) {
 					get_template_part( 'content', $post_format );
 				}
 			?>
@@ -61,6 +61,9 @@ $post_format = get_post_format();
 
 					       	 			    echo '<div class="be-wrap clearfix be-section-pad">'.$content.'</div>';
 					       	 			} else {
+												if( is_single() ) {
+													get_template_part( 'content', $post_format );
+												}
 											the_content( __('Read More','oshin') );
 										}
 									}
