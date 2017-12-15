@@ -1,6 +1,9 @@
-<?php /* 26Oct17 zig - put h1 arount page titles. */
+<?php
+/* 26Oct17 zig - put h1 arount page titles.
+  15Dec17 zig -  take the "Category:" part off a category archive
+*/
 if(is_category()) {
-	echo __('Category: ','oshin').single_cat_title( '', false );
+	echo single_cat_title('', false );
 } elseif(is_tag()) {
 	echo __('Articles Tagged with: ','oshin').single_tag_title( '', false );
 } elseif (is_search()) {
