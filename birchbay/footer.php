@@ -70,13 +70,13 @@
 					<?php endif; ?>
 				</div>
 
-				<div class="footer-center-area">
+				<?php /* zig x-out <div class="footer-center-area">
 					<?php if ($be_themes_data['footer-content-pos-center'] != 'none' ) : ?>
 					<div class="footer-content-inner-center">
 						<?php be_themes_get_footer_widget($be_themes_data['footer-content-pos-center']); ?>
 					</div>
 					<?php endif; ?>
-				</div>
+				</div> */ ?>
 
 				<div class="footer-right-area">
 					<?php if($be_themes_data['footer-content-pos-right'] != 'none' ) : ?>

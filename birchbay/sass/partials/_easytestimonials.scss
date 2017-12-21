@@ -25,6 +25,7 @@
 
       text-align: right;
       font-size: .9em;
+      margin-bottom: 0px;
       .testimonial-client:before {
         content: "\2014"; // add a dash before the author's byline
         padding-right: 5px;
@@ -36,3 +37,16 @@
 
   } // end blockquote
 }
+
+@media only screen and (max-width: 960px) {
+  .easy_t_single_testimonial {
+      margin: 0px;
+      .testimonial_body blockquote:before {
+      line-height: normal;
+      font-size: 2em;
+      }
+      .testimonial_body blockquote {
+        padding-left: 40px;
+      }
+    }
+} // end media 960

@@ -13,4 +13,8 @@ i.fa-pull-right {
 p:empty { // hide any empty p tags (sometimes from images with captions)
     display: none;
 }
+.wp-caption .wp-caption-text {
+  font-size: 13px;
+  line-height: 18px; }
+
 /* ----------- end typography ----------- */

@@ -38,3 +38,12 @@ input[type="submit"] {
 	font-weight: bold;
 	cursor: pointer;
 }
+
+.ui-tabs .ui-tabs-nav {
+	li a.ui-tabs-anchor {
+		padding-bottom: 0px;
+	}
+}
+.tatsu-section .tatsu-row-wrap:last-child .tatsu-column { // override this 
+		margin-bottom: 0px!important;
+}
