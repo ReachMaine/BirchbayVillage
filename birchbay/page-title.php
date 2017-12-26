@@ -1,9 +1,10 @@
 <?php
 /* 26Oct17 zig - put h1 arount page titles.
   15Dec17 zig -  take the "Category:" part off a category archive
+	15Dec17 zig - put h1 tag around category title as well.
 */
 if(is_category()) {
-	echo single_cat_title('', false );
+	echo "<h1>".single_cat_title('', false )."</h1>";
 } elseif(is_tag()) {
 	echo __('Articles Tagged with: ','oshin').single_tag_title( '', false );
 } elseif (is_search()) {
