@@ -47,6 +47,9 @@
       }
     }
   }
+  .bbv-mobile-col10p .tatsu-column-pad {
+    padding: 10px 10px 0px 10px !important;
+  }
 
 }
 @media only screen and (max-width: 767px) { // mobile - mobile menu shows here.
@@ -73,4 +76,10 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { // mobile 480
+}
+
+@media only screen and (max-width: 479px) {
+  .wp-caption.alignright {
+    margin-left: 0px;
+  }
 }

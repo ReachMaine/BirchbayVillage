@@ -48,7 +48,14 @@ Version: 1.2
 }
 
 /*** styling of content */
-/*** styling of content */
+.page-title-module-custom  {
+		h1 {
+  		margin-bottom: 0px;
+		}
+		.breadcrumbs {
+  	font-size: 1.3em;
+	}
+}
 // both archive & single
  .style2-blog {
 		.blog-post {
