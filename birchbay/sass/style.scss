@@ -22,6 +22,9 @@ Version: 1.2
 #header {
 	// top bar
 	#header-top-bar {
+		#header-top-bar-left {
+			padding-top: 16px;
+		}
 		.top-bar-widgets {
 			a {
 				color: $topbar-link; // for the phone number
