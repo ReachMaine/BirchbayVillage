@@ -54,9 +54,19 @@
 						?>
 					</div>
 				<?php endfor; ?>
+
 			</div>
+			<?php /* zig add below footer widgets area */
+			if (is_active_sidebar('reach-lower-footer')) {
+					echo '<div id="reach-lower-footer" >';
+						echo '<div id="reach-lower-footer-wrap" class="be-wrap be-row clearfix">';
+							dynamic_sidebar( 'reach-lower-footer');
+					echo '</div></div>';
+			}
+			?>
 		</footer>
 	<?php } ?>
+
 	<?php if(('no' != $show_footer_area) && !(($be_themes_data['footer-content-pos-center'] == 'none' ) && ($be_themes_data['footer-content-pos-left'] == 'none' ) && ($be_themes_data['footer-content-pos-right'] == 'none' ))) { ?>
 		<footer id="footer" class="<?php echo esc_attr( $be_themes_data['layout'] );?>">
 			<span class="footer-border <?php echo (($be_themes_data['footer-border-wrap']) ? 'be-wrap ' : '' );?>"></span>
