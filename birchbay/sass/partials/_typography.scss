@@ -18,4 +18,11 @@ p:empty { // hide any empty p tags (sometimes from images with captions)
   line-height: 18px;
  }
 
+.bbv-large-button-icons {
+	.tatsu-button {
+		.tatsu-icon {
+			font-size: 30px;
+		}
+	}
+}
 /* ----------- end typography ----------- */
