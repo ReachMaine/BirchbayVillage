@@ -44,6 +44,18 @@ input[type="submit"] {
 		padding-bottom: 0px;
 	}
 }
-.tatsu-section .tatsu-row-wrap:last-child .tatsu-column { // override this 
+.tatsu-section .tatsu-row-wrap:last-child .tatsu-column { // override this
 		margin-bottom: 0px!important;
+}
+
+.tatsu-module.tatsu-button-group.bbv-artshow-buttons {
+	.tatsu-button-wrap {
+		a.tatsu-button {
+			margin-bottom: 4px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			background-color: $bbv-dkr-blue;
+		}
+	}
+
 }
