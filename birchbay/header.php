@@ -14,6 +14,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
+	<?php /* 18Sept24 - zig - add newscenter pixel per Susanne Hopkins */ ?>
+	<script async referrerpolicy='no-referrer-when-downgrade' src='https://tag.simpli.fi/sifitag/7fe65f2e-7209-465a-9500-30337a572982'></script>
 	<?php
 		global $be_themes_data; // Get Backend Options
 		if(isset($be_themes_data['favicon']['url']) && !empty($be_themes_data['favicon']['url']) && $be_themes_data['favicon']['url']) {
