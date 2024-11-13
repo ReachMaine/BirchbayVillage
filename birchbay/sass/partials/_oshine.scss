@@ -48,6 +48,8 @@ input[type="submit"] {
 		margin-bottom: 0px!important;
 }
 
+
+
 .tatsu-module.tatsu-button-group.bbv-artshow-buttons {
 	.tatsu-button-wrap {
 		a.tatsu-button {
@@ -58,4 +60,13 @@ input[type="submit"] {
 		}
 	}
 
+}
+
+.testimonials_wrap.bbv-tonedown {
+	.testimonial_module {
+		.font-icon.icon-quote {
+			font-size: 40px;
+			margin-bottom: 0px;
+		}
+	}
 }
